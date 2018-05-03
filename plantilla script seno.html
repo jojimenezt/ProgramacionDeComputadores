@@ -1,0 +1,96 @@
+<html>
+
+	<meta http-equiv="content-type" content="text/html; charset=US-ASCII">
+
+	<head>
+		
+		<title> Mi título script </title>
+		
+		<h1>Plantilla que permite escribir un programa en JavaScript</h1>
+	
+		<h3>Autor 1 --- Código: 000000</h3>
+		
+		<h3>Autor 2 --- Código: 000000</h3>
+	
+		<script>
+		
+		//Aquí van las funciones que son programadas por el usuario
+		
+		function seno(x){
+		
+			var S = 0
+		
+			for(var n = 0; n <= 12; n++){
+	
+				S = S + pot(-1,n)*pot((rad(x)),2*n+1)/fact(2*n+1)
+
+			}
+		
+			return S
+		
+		}
+			
+		
+		function pot(b,n){
+		 	
+		var p = 1
+				
+		for(var i = 0; i < n; i++){
+		
+				p = p * b
+		
+			}
+			
+		return p
+		
+		}
+			
+	
+		function fact(n){
+	
+			if(n == 0){
+	
+			return 1
+
+			}else{
+	
+			return n * fact(n-1)
+	
+			}
+		
+		}
+	
+		function rad(x){
+			var r=0
+			r=x*3.141592653/180
+			return r	
+		}
+		</script>
+
+	</head>
+
+	<hr><hr>
+
+	<body>
+	
+		<form name="form">
+			
+		<h3>Aquí va la interfaz gráfica para interactuar con el usuario</h3>
+	
+		Parámetro de entrada: <input type="text" name="text1" value="0" size="3">
+	
+		<br>
+			
+		<input type="button" name="button1" value=" Calcular " onclick="text2.value = seno(parseFloat(text1.value))">
+	
+		<br>
+			
+		Resultado: <input type="text" name="text2" value="1" size="5">
+		
+		</form>
+	
+	</body>
+	
+	<hr><hr>
+
+</html>
