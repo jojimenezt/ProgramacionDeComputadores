@@ -13,5 +13,6 @@ int main()
     leer_matriz_int(A,n,m);
     int** B = cuadrado_componentes_matriz(A,n,m);
     escribir_matriz_int(B,n,m);
+    cout<<maximo_matriz_int(A,n,m)<<endl;
     return 0;
 }

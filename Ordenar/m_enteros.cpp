@@ -1,5 +1,6 @@
 #include "m_enteros.h"
-using namespace std;
+#include <iostream>
+
 int** crear_matriz_int(int n, int m){
     int** X=new int*[n];
     for(int i=0;i<n;i++){
@@ -40,3 +41,15 @@ void liberar_matriz_int(int** X, int n, int m){
     delete[] X;
     return ;
 };
+
+int maximo_matriz_int(int** X,int n, int m){
+    int max=X[0][0];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(X[i][j]>max){
+                max=X[i][j];
+            }
+        }
+    }
+    return max;
+}

@@ -29,3 +29,17 @@
 
 1525365095 c:\users\dnia-a-28\downloads\programaciondecomputadores-master\programaciondecomputadores-master\ordenar\a_reales.h
 
+1525369390 source:c:\users\dnia-a-28\downloads\programaciondecomputadores-master\programaciondecomputadores-master\ordenar\m_enteros.cpp
+	"m_enteros.h"
+	<iostream>
+
+1525368996 c:\users\dnia-a-28\downloads\programaciondecomputadores-master\programaciondecomputadores-master\ordenar\m_enteros.h
+
+1525369260 source:c:\users\dnia-a-28\downloads\programaciondecomputadores-master\programaciondecomputadores-master\ordenar\main.cpp
+	<iostream>
+	"negocio.h"
+	"a_entero.h"
+	"m_enteros.h"
+
+1525365095 c:\users\dnia-a-28\downloads\programaciondecomputadores-master\programaciondecomputadores-master\ordenar\negocio.h
+
