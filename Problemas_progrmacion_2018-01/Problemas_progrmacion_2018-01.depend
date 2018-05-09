@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1525809596 source:c:\users\operaciones\documents\problemas_progrmacion_2018-01\numericos.cpp
+	"numericos.h"
+
+1525835027 source:c:\users\operaciones\documents\problemas_progrmacion_2018-01\main.cpp
+	<iostream>
+	"numericos.h"
+	"geometricos.h"
+	"otros.h"
+	"arreglos.h"
+
+1525808849 c:\users\operaciones\documents\problemas_progrmacion_2018-01\numericos.h
+
+1525818914 source:c:\users\operaciones\documents\problemas_progrmacion_2018-01\geometricos.cpp
+	"geometricos.h"
+
+1525818914 c:\users\operaciones\documents\problemas_progrmacion_2018-01\geometricos.h
+
+1525822443 c:\users\operaciones\documents\problemas_progrmacion_2018-01\otros.h
+
+1525822383 source:c:\users\operaciones\documents\problemas_progrmacion_2018-01\otros.cpp
+	"otros.h"
+
+1525834791 source:c:\users\operaciones\documents\problemas_progrmacion_2018-01\arreglos.cpp
+	"arreglos.h"
+	<iostream>
+
+1525835961 c:\users\operaciones\documents\problemas_progrmacion_2018-01\arreglos.h
+	<iostream>
+
